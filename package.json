@@ -1,0 +1,23 @@
+{
+	"name": "sveltekit_demo",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "svelte-kit dev",
+		"build": "svelte-kit build",
+		"start": "svelte-kit start",
+		"lint": "eslint src"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-node": "next",
+		"@sveltejs/eslint-config": "github:sveltejs/eslint-config",
+		"@sveltejs/kit": "next",
+		"@sveltejs/snowpack-config": "next",
+		"svelte": "^3.29.0"
+	},
+	"type": "module",
+	"dependencies": {
+		"-": "0.0.1",
+		"g": "^2.0.1",
+		"npm": "^7.5.4"
+	}
+}
