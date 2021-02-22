@@ -4,8 +4,7 @@
 	"scripts": {
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build && svelte-kit adapt",
-		"start": "svelte-kit start",
-		"lint": "eslint src"
+		"start": "svelte-kit start"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-static": "^1.0.0-next.0",
