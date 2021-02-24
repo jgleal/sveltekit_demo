@@ -1,10 +1,7 @@
 <script>
 	import Counter from '$components/Counter.svelte';
+	const message = 'Hello world!!'
 </script>
-
-
-<h1>Hello world!</h1>
-<Counter/>
 
 <style>
 	h1 {
@@ -23,3 +20,6 @@
 		}
 	}
 </style>
+
+<h1>{message}</h1>
+<Counter/>
